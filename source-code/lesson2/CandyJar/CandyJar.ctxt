@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CandyJar()
+comment1.params=startingCount\ blueCount
+comment1.target=CandyJar(int,\ int)
+comment2.params=blueCount
+comment2.target=void\ blueCandy(int)
+comment3.params=amount
+comment3.target=void\ eat(int)
+comment4.params=amount
+comment4.target=void\ eatBlueCandy(int)
+comment5.params=amount
+comment5.target=void\ refill(int)
+comment6.params=
+comment6.target=int\ candyCount()
+comment7.params=
+comment7.target=void\ doubleCandyAmount()
+numComments=8

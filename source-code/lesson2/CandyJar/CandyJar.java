@@ -5,18 +5,31 @@
 public class CandyJar {
 
    private int myCandyCount;
+   private int blueCandy;
+   
    
    public CandyJar (){}
    
    // Initialize a CandyJar object having startingCount pieces of candy.
-   public CandyJar (int startingCount) {
-      myCandyCount = startingCount;
-   }
+   public CandyJar (int startingCount, int blueCount) {
+      myCandyCount = startingCount ;
+    }
    
-   // Eat amount pieces of candy.
-   public void eat (int amount) {
+   public void blueCandy(int blueCount){
+    blueCandy = blueCount;
+    }
+    
+    // Eat amount pieces of candy.
+   public void eat(int amount) {
       myCandyCount = myCandyCount - amount;
    }
+   
+    public void eatBlueCandy(int amount) {
+      blueCandy = blueCandy - amount;
+   }
+   
+   
+   
    
    // Add amount to the candy currently in the jar.
    public void refill (int amount) {
@@ -30,7 +43,9 @@ public class CandyJar {
    
    // Double the amount of candy currently in the jar
    public void doubleCandyAmount(){
-      //Your code goes here
+      myCandyCount = myCandyCount + myCandyCount;
    }
+   
+   
 }
   
